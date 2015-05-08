@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+  <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+    <TextView android:id="@+id/status"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/beacon_details"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"/>
+
+    <!-- Shown after connection to beacon is established. -->
+    <LinearLayout android:id="@+id/after_connected"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:orientation="vertical">
+                  <!-- android:visibility="gone" -->
+
+      <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Control Beacon Demo:"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical" >
+
+        <Button android:id="@+id/Call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call Beacon"/>
+        <Button android:id="@+id/Config_UUID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Config UUID"/>        
+        <Button android:id="@+id/Config_Major"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Config_Major"/>
+        <Button android:id="@+id/Config_Minor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Config_Minor"/>
+        <Button android:id="@+id/Config_MeasuredPower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Config Power"/>
+        <Button android:id="@+id/Config_BroadcastRete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Config BroadcastRete"/>
+        <Button android:id="@+id/Config_BeaconState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Config BeaconState"/>        
+      </LinearLayout>
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,67 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/fileItem1"       
+        android:title="File">
+        <menu>
+            <group android:id="@+id/group1" >
+                <item
+                    android:id="@+id/fileitem2"
+                    android:title="New"/>
+                <item
+                    android:id="@+id/fileitem3"
+                    android:title="Open"/>
+                <item
+                    android:id="@+id/fileitem4"
+                    android:title="Save"/>
+                <item
+                    android:id="@+id/fileitem5"
+                    android:title="Exit"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/editItem1"
+        android:title="Edit">
+        <menu>
+            <group android:id="@+id/group2" >
+                <item
+                    android:id="@+id/edititem2"
+                    android:title="Cut"/>
+                <item
+                    android:id="@+id/edititem3"
+                    android:title="Copy"/>
+                <item
+                    android:id="@+id/edititem4"
+                    android:title="Paste"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/helpItem1"
+        android:title="Help">
+        <menu>
+            <group android:id="@+id/group3" >
+                <item
+                    android:id="@+id/helpitem2"
+                    android:title="About"/>
+                <item
+                    android:id="@+id/helpitem3"
+                    android:title="Check Update"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Item1"
+        android:title="Menu1"/>
+    <item
+        android:id="@+id/Item2"
+        android:title="Menu2"/>
+    <item
+        android:id="@+id/Item3"
+        android:title="Menu3"/>
+    <item
+        android:id="@+id/Item4"
+        android:title="Menu4"/>
+
+</menu>

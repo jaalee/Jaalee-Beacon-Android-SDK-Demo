@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jaalee Demo</string>
+    <string name="info">Ensure that Android Beacon is enabled by turning it on in
+        the system Settings (select the setting icon above), then place this device up
+        against another Android device that supports Android Beacon to send a
+        message.</string>
+    <string name="menu_settings">Android Beacon settings</string>
+</resources>

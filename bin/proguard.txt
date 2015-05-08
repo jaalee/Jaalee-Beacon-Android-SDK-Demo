@@ -1,0 +1,21 @@
+# view AndroidManifest.xml #generated:37
+-keep class com.jaalee.BeaconDemo.AllDemosActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.jaalee.BeaconDemo.CharacteristicsDemoActivity { <init>(...); }
+
+# view res/layout/distance_view.xml #generated:8
+-keep class com.jaalee.BeaconDemo.DistanceBackgroundView { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.jaalee.BeaconDemo.DistanceBeaconActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.jaalee.BeaconDemo.ListBeaconsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.jaalee.BeaconDemo.NotifyDemoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.jaalee.sdk.service.BeaconService { <init>(...); }
+
